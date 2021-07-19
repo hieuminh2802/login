@@ -1,0 +1,132 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+.wrapper{
+    padding: 20px;
+    background-color:rgb(219, 214, 214);
+ }
+.login{
+    background-color: white;
+    border-radius:2rem;
+ }
+.login__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.left{
+    flex-basis: 50%;
+    height: 100vh;
+    overflow: hidden;
+ }
+ .left img{
+     display: block;
+     width: 100%;
+     border-top-left-radius: 2rem;
+     border-bottom-left-radius: 2rem;
+ }
+.right{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.right__content{ }
+.tittle{
+    margin-bottom: 30px;
+ }
+ .tittle h1{
+     font-weight: 700;
+ }
+ .tittle p{
+     color: gray;
+     font-weight: 300;
+ }
+ .tittle p a{
+     color: #ff725e;
+     font-weight: 600;
+ }
+ .btn{
+    flex-basis: 50%;
+    background-color: transparent;
+    border:none;
+    border-radius: 5px;
+    padding:10px;
+}
+.btn i{
+    padding: 5px;
+}
+
+.btn__google{ 
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+}
+.btn__facebook{
+    background-color: #527bcb;
+    color:white;
+ }
+ .right__button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.right__or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    color: gray;
+ }
+.divider{
+    height: 1px;
+    width: 40%;
+    background: gray;
+ }
+.or{
+    padding: 0 10px;
+ }
+.right__form{ }
+.input{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid gray;
+ }
+ .input:hover{
+     border: 2px solid #ff725e;
+ }
+ .input input{
+     height: 100%;
+     border: none;
+     outline: none;
+     flex-grow: 1;
+ }
+ .input i{
+     padding: 10px;
+ }
+.checkbox{
+    margin: 10px 0;
+ }
+.btn__register{
+    margin-top: 10px;
+    background-color: #ff725e;
+    width: 100%;
+    color: white;
+ }
